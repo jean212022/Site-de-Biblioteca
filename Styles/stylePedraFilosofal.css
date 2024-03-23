@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(130deg, yellow, green, white);
+    font: bold 11pt Comic Sans MS, Comic Sans, cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 30pt;
+}
+
+main{
+    width: auto;
+    height: auto;
+    margin: 10%;
+    margin-top: 3%;
+}
+
+.Primary{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.Second{
+    display: inline-flex;
+    width: 50%;
+    height: 100%
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    margin-top: 11%;
+    margin-right: 18%;
+}
+
+footer{
+    text-align: center;
+}
