@@ -5,8 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jean Francisco Da Silva">
     <meta name="keywords" content="HTML, CSS, Livros">
-    <link rel="stylesheet" type="text/css" href="Styles/styleIndex.css">
     <title>Meus Livros</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, green, white, black);
+        }
+
+        .menu{
+            width: 50%;
+            height: 50%;
+            background-color: darkgreen;
+            font: 20pt Comic Sans MS, Comic Sans, cursive;
+            border-style: double;
+            border-radius: 20pt;
+            text-align: center;
+            color: white;
+            margin: auto;
+            margin-bottom: 5pt;
+            box-shadow: 5pt;
+        }
+
+        main{
+            border: double;
+            border-color: white;
+            border-radius: 20pt;
+            padding: 5pt;
+        }
+
+        .book{
+            display: inline-block;
+            width: auto;
+            margin-left: 6%;
+        }
+
+        #img1 #img2 #img3{
+            display: inline-block;
+            position: relative;
+        }
+
+        .divS, .divS1, .divS2{
+            margin-top: -4.3%;
+            visibility: hidden;
+            position: absolute;
+            width: 24.68%;
+            height: 9%;
+            text-align: center;
+            background-color: darkslategray;
+        }
+
+
+        #img1:hover img{
+            opacity: 0.6;
+            transition-duration: 2s;
+        }
+
+        #img1:hover .divS{
+            visibility: inherit;
+            color: white;
+            font: 13pt Comic Sans MS, Comic Sans, cursive;
+        }
+
+        #img2:hover img{
+            opacity: 0.6;
+            transition-duration: 2s;
+        }
+
+        #img2:hover .divS1{
+            visibility: inherit;
+            color: white;
+            font: 13pt Comic Sans MS, Comic Sans, cursive;
+        }
+
+        #img3:hover img{
+            opacity: 0.6;
+            transition-duration: 2s;
+        }
+
+        #img3:hover .divS2{
+            visibility: inherit;
+            color: white;
+            font: 13pt Comic Sans MS, Comic Sans, cursive;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,21 +99,45 @@
 
     <main>
         <div class="book">
-            <a href="Pages/pedrafilosofal.html">
-                <img id="img1" src="Images/pedrafilosofal.jpg" alt="Harry Potter e Pedra Filosofal">
-            </a>
+            <figcaption id="img1">
+                <a href="Pages/pedrafilosofal.html">
+                    <img src="Images/pedrafilosofal.jpg" alt="Harry Potter e Pedra Filosofal">
+                </a>
+
+                <div class="divS">
+                    <p>
+                        Harry Potter e Pedra Filosofal
+                    </p>
+                </div>
+            </figcaption>
         </div>
 
         <div class="book">
-            <a href="Pages/camarasecreta.html">
-                <img id="img2" src="Images/camarasecreta.jpg" alt="Harry Potter e Câmara Secreta">
-            </a>
+            <figcaption id="img2">
+                <a href="Pages/camarasecreta.html">
+                    <img src="Images/camarasecreta.jpg" alt="Harry Potter e Câmara Secreta">
+                </a>
+    
+                <div class="divS1">
+                    <p>
+                        Harry Potter e Câmara Secreta
+                    </p>
+                </div>
+            </figcaption>
         </div>
 
         <div class="book">
-            <a href="Pages/prisioneirodeazkaban.html">
-                <img id="img3" src="Images/prisioneirodeazkaban.jpg" alt="Harry Potter e Prisioneiro de Azkaban">
-            </a>
+            <figcaption id="img3">
+                <a href="Pages/prisioneirodeazkaban.html">
+                    <img src="Images/prisioneirodeazkaban.jpg" alt="Harry Potter e Prisioneiro de Azkaban">
+                </a>
+    
+                <div class="divS2">
+                    <p>
+                        Harry Potter e Prisioneiro de Azkaban
+                    </p>
+                </div>
+            </figcaption>
         </div>
     </main>
 </body>

@@ -37,6 +37,11 @@ img{
     margin-right: 18%;
 }
 
+img:hover{
+    transition-duration: 2s;
+    transform: scale(1.5,1.5);
+}
+
 footer{
     text-align: center;
 }
