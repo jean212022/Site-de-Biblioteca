@@ -1,0 +1,70 @@
+*{
+    text-align: center;
+    font: 15pt Verdana;
+    margin: auto;
+}
+
+header.cabeca{
+    background-image: radial-gradient(#dc7844,#99a9b6);
+    padding: 2.5%;
+    border-style: double;
+}
+section.secao div, h2, figcaption, div p{
+    margin: 1%;
+}
+
+nav.menu{
+    width: 100%;
+    display: block;
+    margin-bottom: -1%;
+}
+
+nav.menu div{
+    background-image: linear-gradient(to right,#dc7844,#99a9b6);
+    display: inline;
+    padding-left: 21.05%;
+    padding-right: 21.05%;
+    border-style: groove;
+    width: 50%;
+}
+
+nav.menu div.livros ul.lista{
+    position: relative;
+    list-style: none;
+    display: none;
+    border-style: groove;
+}
+
+nav.menu div.livros:hover ul.lista{
+    background-image: linear-gradient(to left,#dc7844,#99a9b6);
+    display: block;
+    position: absolute;
+    margin-left: 54.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+a{
+    text-decoration: none;
+    font: 15pt Verdana;
+    color: black;
+}
+
+section.secao{
+    background-image: linear-gradient(to left,#dc7844,#99a9b6);
+}
+
+section.secao h2{
+    font-size: 1.5rem;
+}
+
+section.secao figcaption.imagem legend.legenda{
+    font-size: 0.75rem;
+}
+
+footer.cabeca{
+    background-image: radial-gradient(#dc7844,#99a9b6);
+    padding: 2.5%;
+    margin-top: -1%;
+    border-style: double;
+}
