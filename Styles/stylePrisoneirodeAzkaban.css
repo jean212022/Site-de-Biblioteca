@@ -1,6 +1,6 @@
 *{
     text-align: center;
-    font: 15pt Verdana;
+    font: 15pt Comic Sans MS, Comic Sans, cursive;
     margin: auto;
 }
 
@@ -9,8 +9,9 @@ header.cabeca{
     padding: 2.5%;
     border-style: double;
 }
-section.secao div, h2, figcaption, div p{
-    margin: 1%;
+
+header.cabeca h1{
+    font-size: 2rem;
 }
 
 nav.menu{
@@ -20,10 +21,10 @@ nav.menu{
 }
 
 nav.menu div{
-    background-image: linear-gradient(to right,#dc7844,#99a9b6);
+    background-color: gray;
     display: inline;
-    padding-left: 21.05%;
-    padding-right: 21.05%;
+    padding-left: 21.35%;
+    padding-right: 21.35%;
     border-style: groove;
     width: 50%;
 }
@@ -36,7 +37,7 @@ nav.menu div.livros ul.lista{
 }
 
 nav.menu div.livros:hover ul.lista{
-    background-image: linear-gradient(to left,#dc7844,#99a9b6);
+    background-color: gray;
     display: block;
     position: absolute;
     margin-left: 54.5%;
@@ -46,7 +47,7 @@ nav.menu div.livros:hover ul.lista{
 
 a{
     text-decoration: none;
-    font: 15pt Verdana;
+    font: 15pt Comic Sans MS, Comic Sans, cursive;
     color: black;
 }
 
@@ -60,6 +61,10 @@ section.secao h2{
 
 section.secao figcaption.imagem legend.legenda{
     font-size: 0.75rem;
+}
+
+section.secao div, h2, figcaption, div p{
+    margin: 1%;
 }
 
 footer.cabeca{

@@ -8,6 +8,56 @@ h1{
     font-size: 30pt;
 }
 
+nav.menu{
+    width: 100%;
+    display: block;
+    margin-bottom: -1%;
+}
+
+nav.menu div{
+    border-style: groove;
+    border-color: yellow;
+    background-color: green;
+    display: inline;
+    padding-left: 21.12%;
+    padding-right: 21.12%;
+    width: 50%;
+}
+
+nav.menu div.inicial{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+nav.menu div.livros{
+    padding-top: 0.1%;
+    padding-bottom: 0.3%;
+}
+
+nav.menu div.livros ul.lista{
+    position: relative;
+    list-style: none;
+    display: none;
+    border-style: groove;
+}
+
+nav.menu div.livros:hover ul.lista{
+    background-color: green;
+    border-color: yellow;
+    display: block;
+    position: absolute;
+    margin-left: 53%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 0%;
+}
+
+a{
+    text-decoration: none;
+    font: bold 15pt Comic Sans MS, Comic Sans, cursive;
+    color: black;
+}
+
 main{
     width: auto;
     height: auto;
